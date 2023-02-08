@@ -48,7 +48,7 @@ const PaymentProfileScreen = props => {
           </View>
         </TouchableOpacity>
       </>
-      <>
+      {/* <>
         <Text style={styles.header}>{'Payment Method'}</Text>
         <View style={styles.optionContainer}>
           <Option
@@ -73,7 +73,7 @@ const PaymentProfileScreen = props => {
             PayPal
           </Option>
         </View>
-      </>
+      </> */}
       <View style={styles.buttonView}>
         <Pressable style={styles.button}>
           <Text style={styles.buttonText}>Update</Text>
